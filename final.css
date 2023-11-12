@@ -1,0 +1,91 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+</style>
+
+*{
+  margin:0 ;
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: sans-serif ;
+}
+
+.cotainer{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 90vh;
+
+}
+.ellipse1{
+  height:251px;
+  width:250px;
+  left: 270px;
+  top:2150px;
+  position:absolute;
+}
+
+.text {
+  position: absolute;
+  top: 330%;
+  transform: translateY(-50%);
+  vertical-align:text-top;
+  font-family:Antic;
+  border-style:hidden;
+  outline:none;
+  width:735px;
+  
+}
+
+.text1 {
+  position: absolute;
+  top: 355%;
+  transform: translateY(-50%);
+  vertical-align:text-top;
+  font-family:Antic;
+  border-style:hidden;
+  outline:none;
+  width:735px;
+  
+}
+section {
+  height: 90vh;
+  display:flex;
+  justify-content: center;
+  align-items: top;
+ }
+
+ .project{
+  background: linear-gradient(#FFFFFF, #1AACEB);
+ }
+
+ .project2{
+  background: linear-gradient(#1AACEB, #FFFFFF);
+ }
+
+ .about_me{
+  background: linear-gradient(#FFFFFF, #D27C2B);
+ }
+
+ .about_me2{
+  background: linear-gradient(#D27C2B, #FFFFFF);
+ }
+
+ .contact{
+  background: linear-gradient(#FFFFFF, #1AACEB);
+ }
+.discord{
+  height:90px;
+  width:90px;
+  padding: 0;
+  top:3700px;
+  position:absolute;
+}
+.reach{
+color:#000000;
+text-align:left;
+vertical-align:text-top;
+font-size:37px;
+font-family:Angkor;
+line-height:auto;
+border-style:hidden;
+width:498px;
+}
